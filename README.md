@@ -82,6 +82,7 @@ pip install opencv-python opencv-contrib-python deepface numpy
 
 ```bash
 python make_dataset.py
+```
 
 Instruksi:
 
@@ -89,38 +90,40 @@ Arahkan wajah ke webcam
 Tekan s untuk menyimpan gambar
 Tekan q untuk keluar
 Dataset akan tersimpan di folder dataset/.
-```
+
 🧠 2. Training Model Wajah
 ```bash
 python model.py
+```
 
 Mengambil seluruh gambar pada folder dataset/
 Melatih model LBPH
 Menyimpan file trainer.yml
 Membuat file name_mapping.txt
 
-```
+
 👁️ 3. Menjalankan Face Recognition
 ```bash
 python scan.py
+```
 
 Fitur:
 
 Menampilkan wajah dalam kotak
 Menampilkan nama sesuai prediksi model
 Menandai wajah yang tidak dikenal (Unknown)
-```
+
 😊 4. Face Recognition + Emotion Detection
 ```bash
 python deepface_start.py
-
+```
 
 fitur
 
 Mendeteksi wajah
 Menampilkan Nama + Emosi Dominan (happy, sad, neutral, angry, dll.)
 Real-time melalui webcam
-```
+
 🧾 Log File
 
 ```bash
