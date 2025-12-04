@@ -10,7 +10,7 @@ Webcam digunakan sebagai input utama untuk membaca wajah, mengenali identitas, s
 
 ## Acknowledgements
 
-- Fitur Utama
+Fitur Utama:
 
 - Membuat dataset wajah dari webcam
 
@@ -35,7 +35,9 @@ Webcam digunakan sebagai input utama untuk membaca wajah, mengenali identitas, s
 
 - LBPH Face Recognizer
 
-- Haar Cascade Classifier## 📁 Fitur Utama
+- Haar Cascade Classifier##
+
+##📁 Fitur Utama
 
 - Membuat dataset wajah dari webcam
 
