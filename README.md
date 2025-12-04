@@ -77,6 +77,9 @@ git clone https://github.com/akukamu9021/face-detection-and-emotiion-detection.g
 ```bash
 pip install opencv-python opencv-contrib-python deepface numpy
 ```
+```bash
+pip install tf-keras
+```
 
 📸 1. Membuat Dataset Wajah
 
